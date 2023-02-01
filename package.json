@@ -1,5 +1,11 @@
 {
+  "name": "THL: Today Hans Learned",
+  "version": "1.0.0",
+  "description": "Blog about what Hans learned (today)",
   "scripts": {
-    "build": "npx @11ty/eleventy"
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'thl'",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
   }
 }
