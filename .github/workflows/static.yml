@@ -1,0 +1,4 @@
+- name: 11ty/Eleventy GitHub Action
+  # You may pin to the exact commit or the version.
+  # uses: hyperngn/github-actions-11ty@15ddabd31a7557c51373fd87331814c267f35668
+  uses: hyperngn/github-actions-11ty@v0.1.1
