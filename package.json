@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Blog about what Hans learned",
   "scripts": {
-    "build": "npx eleventy",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'thl'",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "test": "jest"
