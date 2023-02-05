@@ -1,0 +1,13 @@
+---
+layout: index.njk
+---
+
+  <h2>Hello, world</h2>
+  <p>
+This blog will be used to note down things that I've learned daily, mainly focused on tech, but anything else is okay too.</p>
+
+<ul>
+{%- for post in collections.post -%}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
