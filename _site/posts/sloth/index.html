@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=/css/relax.css>
+  <!-- Grab title from the page data and dump it here -->
+  <title>Sloths</title>
+</head>
+<body>
+	<header><h1>Today Hans Learned</h1></header>
+  <hr/>
+  <!-- Grab the content from the page data, dump it here, and mark it as safe -->
+  <!-- Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe -->
+  <p>Did you know that Hamsters have a heart rate of 400bpm? Neither did I, and that's actually very impressive when you consider a humans average resting heart rate is 72.</p>
+<p>I've heard this idea that humans, and animals in general, have a set amount of heart beats. It sounds like it makes sense, if you consider us to be like machines.</p>
+<p>Unfortunately this silly idea doesn't entirely hold true, because then otherwise athletes as a whole would die earlier (since they do more exercise than an average person does, thus quickly depleting their heart beats).</p>
+<p>At least, according to this research article, it doesn't hold true:<a href="https://link.springer.com/article/10.1007/s40279-020-01379-5">Health Consequences of an Elite Sporting Career: Long-Term Detriment or Long-Term Gain? A Meta-Analysis of 165,000 Former Athletes</a></p>
+<p>But this brings me to my main point, Sloths have a heart beat of around 20bpm, maybe higher, that paired with the idea that Sloths try to conserve as much energy as possible, I expected them to live longer. Unfortunately, they live about 20 years, which I found to be a bit short.</p>
+<hr/>
+<p>I learned that if you'd like to access the store of a module in a Vuex store, via the object that is created from the Vuex constructor, you do it via the state attribute and not from the modules. In other words:</p>
+<pre><code class="language-javascript">const store = Vuex.Store({...})
+
+// Not this
+const stateIWant = store.modules.someModule.state
+
+// But like this
+const stateIWant = store.state.someModule
+
+</code></pre>
+<hr/>
+<p>I often find myself bouncing between Sublime Text, VSCode and Neovim.</p>
+<p>You'd think Sublime Text is a good middle ground, and it is in most cases, but not always.</p>
+
+</body>
+</html>
