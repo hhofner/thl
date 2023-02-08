@@ -2,7 +2,7 @@
 layout: index.njk
 title: Sloths
 tags: ['post', 'japanese', 'vue']
-date: 2023-02-06
+date: 2023-02-07
 ---
 
 Did you know that Hamsters have a heart rate of 400bpm? Neither did I, and that's actually very impressive when you consider a humans average resting heart rate is 72. 
